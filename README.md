@@ -1,32 +1,30 @@
-# RollaBall
+# Roll a Ball
 
 ## Aim:
 To Roll a Ball using C# program in unity .
-
 ## Algorithm:
-Step 1:
+### Step 1:
 Create New Scene on unity game engine.
 
-Step 2:
+### Step 2:
 Right click on Hierarchy create 3D Object.
 
-Step 3:
+### Step 3:
 Click Hierarchy -> 3DObject -> Sphere Hierarchy -> 3DObject -> plane Hierarchy.
 
-Step 4:
+### Step 4:
 Create a folder in project and name as Materials Material folder -> Create -> Material (Name: Sphere) Inspector ->Surface Inputs ->BaseMAp (Choose the color) Drag the Cylinder to the plane and release the mouse
 
 Create a folder in project and name as Materials Material folder -> Create -> Material (Name: Plane) Inspector ->Surface Inputs ->BaseMAp (Choose the color) Drag the Capsule to the plane and release the mouse
 
-Step 5:
+### Step 5:
 Create a folder name Coding and create a C# file to add the coding in it.
 
-Step 6:
+### Step 6:
 To add our C# Script file to our selected object, click on the C# Script file and drag it to Sphere objects in the Hierarchy window and run the application.
 
-Step 7:
+### Step 7:
 After run the application, you press the WASD and space key the ball will move and jump.
-
 ## Program:
 ```
 using System.Collections;
@@ -75,7 +73,7 @@ public class Object1 : MonoBehaviour
 }
 ```
 ## Output:
-![Rollaball](https://user-images.githubusercontent.com/75235022/166149453-23a885e0-1252-4a88-a743-2033a71a2a85.jpeg)
+![rollaball](https://user-images.githubusercontent.com/75235150/167239988-2ecdff9b-962f-400c-8623-f08a82aa29f2.png)
 
 
 ## Result:
